@@ -61,33 +61,10 @@ By default, this will:
 After generating images, create a progress grid visualization:
 
 ```bash
-python visualize_progress.py
+python visualize_progress.py --folder PATH_TO_ITERATION_IMAGE_RESULTS
 ```
 
 This will create a `progress_grid.png` file in the same directory as your generated images.
-
-### Customization
-
-You can customize the image generation with command-line arguments:
-
-```bash
-python iterative_image_generation.py \
-    --prompt "a futuristic cityscape at night" \
-    --negative-prompt "blurry, low quality, distorted" \
-    --iterations 10 \
-    --output-dir custom_output
-```
-
-### Visualization Options
-
-Customize the progress visualization:
-
-```bash
-python visualize_progress.py \
-    --folder path/to/images \
-    --output path/to/save/grid.png \
-    --columns 4
-```
 
 ## Project Structure
 
