@@ -21,7 +21,7 @@ This project demonstrates an iterative image generation pipeline that uses a Vis
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/BiophysNinja/iterative_image_generation.git
    cd iterative_image_generation_with_llms
    ```
 
