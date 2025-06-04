@@ -1,6 +1,6 @@
-# Iterative Image Generation with LLM Feedback
+# Iterative Image Generation with VLM Feedback
 
-This project demonstrates an iterative image generation pipeline that uses a Large Language Model (LLM) to provide feedback and improve generated images over multiple iterations. The system generates images using a diffusion model, analyzes them using Google's Gemini model, and iteratively refines the prompts to achieve better results.
+This project demonstrates an iterative image generation pipeline that uses a Vision Language Model (VLM) to provide feedback and improve generated images over multiple iterations. The system generates images using a diffusion model, analyzes them using Google's Gemma3 model, and iteratively refines the prompts to achieve better results.
 
 ## Features
 
@@ -107,7 +107,7 @@ python visualize_progress.py \
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## Acknowledgments
 
